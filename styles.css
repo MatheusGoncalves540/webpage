@@ -1,0 +1,9 @@
+#botaoclick {
+    border-radius: 50px
+}
+  
+#tempo {
+    font-family: Impact;
+    display: flex;
+    justify-content: center;
+}
