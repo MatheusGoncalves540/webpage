@@ -1,9 +1,21 @@
-#botaoclick {
-    border-radius: 50px
-}
-  
+ 
 #tempo {
-    font-family: Impact;
+    font-family: ;
     display: flex;
     justify-content: center;
+    color: bisque;
+}
+
+body {
+    background-image: radial-gradient(circle,blueviolet, black);
+    background-attachment: fixed;
+}
+
+.relogio img {
+    
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    box-shadow: 0 0 10px cornflowerblue;
+    border-radius: 100%
 }
