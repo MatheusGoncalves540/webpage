@@ -1,9 +1,9 @@
-//Variáveis
+//Variables
 var segundos = 0;
 var TempoPorClick = 1;
-//Variáveis
+//Variables
 
-//Funções
+//Functions
 document.getElementById("botaoclick").addEventListener("click", click);
 function click()
 {
@@ -23,10 +23,10 @@ function ContarSegundos(){
 function atualizartempo(){
     document.getElementById("tempo").innerHTML ="Já passou " + segundos +" segundos...";
     document.querySelector(".rotate_minuto").style.transform = 'rotate(' + (segundos * 0.1) + 'deg)';
-    document.querySelector(".rotate_hora").style.transform = 'rotate(' + (segundos * 0.001666) + 'deg)';
+    document.querySelector(".rotate_hora").style.transform = 'rotate(' + (segundos * 0.00166666666) + 'deg)';
     document.querySelector(".rotate_segundo").style.transform = 'rotate(' + (segundos * 6) + 'deg)';
 }
 
 atualizartempo();
-
+//Functions
 

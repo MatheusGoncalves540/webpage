@@ -1,9 +1,14 @@
- 
+@font-face {
+    font-family: 'typography';
+    src: url('../webpage/Fonts/Typography Times Regular.ttf');
+} 
+
 #tempo {
-    font-family: ;
+    font-family: 'typography';
     display: flex;
     justify-content: center;
     color: bisque;
+    box-shadow: 0 0 10px black;
 }
 
 body {
